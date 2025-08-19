@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "npm run build:frontend",
-    "build:frontend": "cd frontend && npm run build",
+    "build:frontend": "cd frontend && npm install && npm run build",
     "start": "node server.js",
     "setup": "npm install && cd frontend && npm install && cd ..",
     "dev:backend": "node server.js",
